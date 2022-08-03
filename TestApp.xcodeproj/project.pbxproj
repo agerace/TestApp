@@ -12,6 +12,7 @@
 		0EADEC3028948936009EC0BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EADEC2F28948936009EC0BA /* Assets.xcassets */; };
 		0EADEC3328948936009EC0BA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EADEC3228948936009EC0BA /* Preview Assets.xcassets */; };
 		0EADEC3A28949E5E009EC0BA /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EADEC3928949E5E009EC0BA /* NetworkManager.swift */; };
+		0EFA20BD289B310800CC7835 /* ImageDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFA20BC289B310800CC7835 /* ImageDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		0EADEC2F28948936009EC0BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0EADEC3228948936009EC0BA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0EADEC3928949E5E009EC0BA /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		0EFA20BC289B310800CC7835 /* ImageDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				0EADEC2B28948933009EC0BA /* TestAppApp.swift */,
 				0EADEC2D28948933009EC0BA /* ContentView.swift */,
+				0EFA20BC289B310800CC7835 /* ImageDetailView.swift */,
 				0EADEC3928949E5E009EC0BA /* NetworkManager.swift */,
 				0EADEC2F28948936009EC0BA /* Assets.xcassets */,
 				0EADEC3128948936009EC0BA /* Preview Content */,
@@ -142,6 +145,7 @@
 			files = (
 				0EADEC3A28949E5E009EC0BA /* NetworkManager.swift in Sources */,
 				0EADEC2E28948933009EC0BA /* ContentView.swift in Sources */,
+				0EFA20BD289B310800CC7835 /* ImageDetailView.swift in Sources */,
 				0EADEC2C28948933009EC0BA /* TestAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
