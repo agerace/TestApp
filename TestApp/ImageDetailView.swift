@@ -20,6 +20,8 @@ struct ImageDetailView: View {
     }
 }
 
+#warning("Check how to create a view with a mock image item")
+
 //struct ImageDetailView_Previews: PreviewProvider {
 //    static var previews: some View {
 //        ImageDetailView(imageItem: ImageItem)
