@@ -44,7 +44,7 @@ struct ContentView: View {
                                 .minimumScaleFactor(0.3)
                                 .multilineTextAlignment(.center)
 
-                        }.padding(8)
+                        }.padding(20)
                     }
                 }
             }.searchable(text: $searchTerm)
