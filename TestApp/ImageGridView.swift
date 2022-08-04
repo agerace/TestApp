@@ -1,23 +1,13 @@
 //
-//  ContentView.swift
+//  ImageGridView.swift
 //  TestApp
 //
 //  Created by César Gerace on 29/07/2022.
 //
 
 import SwiftUI
-struct ResponseArray: Decodable {
-    let hits: [ImageItem]
-}
 
-struct ImageItem: Decodable, Identifiable, Hashable {
-    let id: Int
-    let tags: String
-    let previewURL: URL
-    let largeImageURL: URL
-}
-
-struct ContentView: View {
+struct ImageGridView: View {
     
     @State var imageItems: [ImageItem] = []
     
@@ -51,7 +41,10 @@ struct ContentView: View {
                     }
                 }
             }.searchable(text: $searchTerm)
+                .navigationTitle("Grid View")
         }.onSubmit(of: .search, searchImageItems)
+        
+        
     }
     
     private func searchImageItems() {
@@ -63,8 +56,8 @@ struct ContentView: View {
 }
 
 
-struct ContentView_Previews: PreviewProvider {
+struct ImageGridView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ImageGridView()
     }
 }
