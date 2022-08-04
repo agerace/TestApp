@@ -8,21 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		0EADEC2C28948933009EC0BA /* TestAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EADEC2B28948933009EC0BA /* TestAppApp.swift */; };
-		0EADEC2E28948933009EC0BA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EADEC2D28948933009EC0BA /* ContentView.swift */; };
+		0EADEC2E28948933009EC0BA /* ImageGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EADEC2D28948933009EC0BA /* ImageGridView.swift */; };
 		0EADEC3028948936009EC0BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EADEC2F28948936009EC0BA /* Assets.xcassets */; };
 		0EADEC3328948936009EC0BA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EADEC3228948936009EC0BA /* Preview Assets.xcassets */; };
 		0EADEC3A28949E5E009EC0BA /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EADEC3928949E5E009EC0BA /* NetworkManager.swift */; };
 		0EFA20BD289B310800CC7835 /* ImageDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFA20BC289B310800CC7835 /* ImageDetailView.swift */; };
+		0EFA20C0289B370800CC7835 /* PrivateInformation.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0EFA20BF289B370800CC7835 /* PrivateInformation.plist */; };
+		0EFA20C4289B3B6400CC7835 /* ImageItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFA20C3289B3B6400CC7835 /* ImageItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0EADEC2828948933009EC0BA /* TestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EADEC2B28948933009EC0BA /* TestAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAppApp.swift; sourceTree = "<group>"; };
-		0EADEC2D28948933009EC0BA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0EADEC2D28948933009EC0BA /* ImageGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGridView.swift; sourceTree = "<group>"; };
 		0EADEC2F28948936009EC0BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0EADEC3228948936009EC0BA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0EADEC3928949E5E009EC0BA /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		0EFA20BC289B310800CC7835 /* ImageDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailView.swift; sourceTree = "<group>"; };
+		0EFA20BF289B370800CC7835 /* PrivateInformation.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PrivateInformation.plist; sourceTree = "<group>"; };
+		0EFA20C3289B3B6400CC7835 /* ImageItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,11 +60,13 @@
 			isa = PBXGroup;
 			children = (
 				0EADEC2B28948933009EC0BA /* TestAppApp.swift */,
-				0EADEC2D28948933009EC0BA /* ContentView.swift */,
+				0EADEC2D28948933009EC0BA /* ImageGridView.swift */,
 				0EFA20BC289B310800CC7835 /* ImageDetailView.swift */,
+				0EFA20C3289B3B6400CC7835 /* ImageItem.swift */,
 				0EADEC3928949E5E009EC0BA /* NetworkManager.swift */,
 				0EADEC2F28948936009EC0BA /* Assets.xcassets */,
 				0EADEC3128948936009EC0BA /* Preview Content */,
+				0EFA20BF289B370800CC7835 /* PrivateInformation.plist */,
 			);
 			path = TestApp;
 			sourceTree = "<group>";
@@ -132,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0EADEC3328948936009EC0BA /* Preview Assets.xcassets in Resources */,
+				0EFA20C0289B370800CC7835 /* PrivateInformation.plist in Resources */,
 				0EADEC3028948936009EC0BA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,9 +151,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0EADEC3A28949E5E009EC0BA /* NetworkManager.swift in Sources */,
-				0EADEC2E28948933009EC0BA /* ContentView.swift in Sources */,
+				0EADEC2E28948933009EC0BA /* ImageGridView.swift in Sources */,
 				0EFA20BD289B310800CC7835 /* ImageDetailView.swift in Sources */,
 				0EADEC2C28948933009EC0BA /* TestAppApp.swift in Sources */,
+				0EFA20C4289B3B6400CC7835 /* ImageItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
