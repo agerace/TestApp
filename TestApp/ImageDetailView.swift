@@ -2,7 +2,7 @@
 //  ImageDetailView.swift
 //  TestApp
 //
-//  Created by César Gerace on 03/08/2022.
+//  Created by Anonymous Artist on 03/08/2022.
 //
 
 import SwiftUI
