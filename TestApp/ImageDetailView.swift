@@ -48,7 +48,7 @@ struct ImageDetailView: View {
             )
             if showMetadata {
                 Text(imageItem.tags)
-                background(Color.white.opacity(0.5))
+                    .background(Color.white.opacity(0.5))
             }
         }
         
