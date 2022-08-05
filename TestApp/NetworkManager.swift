@@ -33,14 +33,14 @@ class NetworkManager{
         return urlWithKey
     }
     
-    func loadData(searchTerm: String, completion:@escaping (ResponseArray?) -> ()) {
+    func loadData(searchTerm: String, page: Int, completion:@escaping (ResponseArray?) -> ()) {
         
         guard let baseUrlWithKey = getBaseUrlWithKey() else {
             completion(nil)
             return
         }
         
-        guard let url = URL(string: "\(baseUrlWithKey)&q=\(searchTerm)&image_type=photo&pretty=true") else {
+        guard let url = URL(string: "\(baseUrlWithKey)&q=\(searchTerm)&image_type=photo&pretty=true&page=\(page)") else {
             print("Invalid url...")
             return
         }

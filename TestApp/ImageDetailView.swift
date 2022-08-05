@@ -21,11 +21,8 @@ struct ImageDetailView: View {
                 image.resizable()
                     .aspectRatio(contentMode: .fit)
                 
-            }placeholder: {
-                ProgressView()
-            }
+            }placeholder: { ProgressView() }
             .scaleEffect(imageScale)
-            
             .gesture(
                 MagnificationGesture().onChanged{ value in
                     imageScale = value >= 1 ? value : 1
